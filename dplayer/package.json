@@ -1,0 +1,36 @@
+{
+  "name": "everdo",
+  "filename": "DPlayer.min.js",
+  "version": "1.25.0",
+  "description": "A PLACE FOR TRUE LOVE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://www.everdo.cn"
+  },
+  "keywords": [
+    "player",
+    "danmaku",
+    "video",
+    "html5"
+  ],
+  "author": "xiaofan",
+  "license": {
+    "type": "SATA",
+    "url": "https://huxiaofan.com"
+  },
+  "npmName": "dplayer",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    },
+    {
+      "basePath": "src",
+      "files": [
+        "DPlayer.!(scss)"
+      ]
+    }
+  ]
+}
