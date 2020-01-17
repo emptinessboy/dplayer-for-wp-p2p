@@ -1,3 +1,5 @@
+新增功能
+
 === Plugin Name ===
 Contributors: 0xbbc
 Tags: video, player, shortcode
