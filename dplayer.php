@@ -222,7 +222,10 @@ EOF;
             //wp_enqueue_script( 'dplayer', esc_url("https://cdnjs.cat.net/ajax/libs/dplayer/$dplayer_version/DPlayer.min.js"), false, $dplayer_version, false );
             wp_enqueue_script( 'dplayer', esc_url("/wp-content/plugins/dplayer-for-wp-p2p/dplayer/p2p-libs/p2p-dplayer.js?$dplayer_versions"), false, $dplayer_version, false );
 			
-			wp_enqueue_script( 'cdnbye', esc_url("/wp-content/plugins/dplayer-for-wp-p2p/dplayer/p2p-libs/cdnbye.js?$dplayer_versions"), false, $dplayer_version, false );
+            wp_enqueue_script( 'cdnbye', esc_url("https://cdn.jsdelivr.net/npm/cdnbye@latest"), false, $dplayer_version, false );
+
+            //已过时
+			//wp_enqueue_script( 'cdnbye', esc_url("/wp-content/plugins/dplayer-for-wp-p2p/dplayer/p2p-libs/cdnbye.js?$dplayer_versions"), false, $dplayer_version, false );
           
             wp_enqueue_script( 'init-dplayer', plugins_url('dplayer/init-dplayer.js', __FILE__), false, '1.0.0', false );
             self::$add_script = true;
