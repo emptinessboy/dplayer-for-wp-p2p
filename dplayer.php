@@ -38,7 +38,7 @@ class DPlayer {
     
     // registers default options
     public static function dplayer_install() {
-        add_option( 'kblog_danmaku_url', '//danmaku.daoapp.io' );
+        add_option( 'kblog_danmaku_url', 'https://danmu.api.everdo.cn/api/danmu/dplayer/' );
         add_option( 'kblog_danmaku_token', 'tokendemo' );
         add_option( 'kblog_danmaku_dplayer_version', '1.25.0' );
         add_option( 'kblog_danmaku_dplayer_version_check', '0' );
